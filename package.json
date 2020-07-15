@@ -1,0 +1,27 @@
+{
+  "name": "redner-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "latest",
+    "basic-ftp": "latest",
+    "md5-file": "latest",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "uuid": "latest",
+    "@grpc/proto-loader": "^0.1.0",
+    "async": "^1.5.2",
+    "google-protobuf": "^3.0.0",
+    "grpc": "^1.11.0",
+    "lodash": "^4.6.1",
+    "minimist": "^1.2.0",
+    "moment": "latest"
+  }
+}

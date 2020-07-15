@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package pr;
+
+service Gn {
+    rpc SayHello (GnRequest) returns (GnResponse) {
+    }
+    rpc Generate (GnRequest) returns (GnResponse) {
+    }
+}
+
+message GnRequest {
+    string message = 1;
+    string data = 2;
+}
+
+message GnResponse {
+    string message = 1;
+    string data = 2;
+}
