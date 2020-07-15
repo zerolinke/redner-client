@@ -1,0 +1,219 @@
+{
+  "version": "0.0.2",
+  "app_id": "request_id_123",
+  "request_id": "request_id_123",
+  "callback_url": "http://127.0.0.1",
+  "task_id": "linke_00_test",
+  "trace_id": "trace_id_123",
+  "canvas_info": {
+    "width": 720,
+    "height": 1280,
+    "color": "black"
+  },
+  "target_info": {
+    "file_name": "linke_00_test",
+    "format": "mp4",
+    "video_info": {
+      "codec_id": 1001,
+      "width": 720,
+      "height": 1280,
+      "frame_rate": 25
+    },
+    "audio_info": {
+      "codec_id": 2001,
+      "channels": 2,
+      "sample_rate": 16000
+    }
+  },
+  "save_info": {
+    "type": 0,
+    "params": {
+      "region": "xxx",
+      "bucket": "xxx",
+      "dir": "xxx",
+      "secret_id": "xxx",
+      "secret_key": "xxx"
+    }
+  },
+  "assets": [
+    {
+      "id": "d19662f1-e72e-4890-9a55-fd9ebd76f016",
+      "type": "image",
+      "down_info": {
+        "type": 0,
+        "params": {
+          "url": "http://127.0.0.1/data/cover.jpg"
+        }
+      }
+    },
+    {
+      "id": "fee0948b-fcdd-4d66-bf38-f9e5672e23e2",
+      "type": "audio",
+      "down_info": {
+        "type": 0,
+        "params": {
+          "url": "http://127.0.0.1/data/bgm.mp3"
+        }
+      }
+    },
+    {
+      "id": "53ac4c02-521f-4cf3-86a8-0c834cf20942",
+      "type": "video",
+      "down_info": {
+        "type": 0,
+        "params": {
+          "url": "http://127.0.0.1/data/clipmain.mp4"
+        }
+      }
+    },
+    {
+      "id": "207d9333-5ebf-444b-9e7b-8b630d3c2c67",
+      "type": "image",
+      "down_info": {
+        "type": 0,
+        "params": {
+          "url": "http://127.0.0.1/data/mask.png"
+        }
+      }
+    },
+    {
+      "id": "15d8df9e-cec6-4646-b65c-11097cf4b450",
+      "type": "video",
+      "down_info": {
+        "type": 0,
+        "params": {
+          "url": "http://127.0.0.1/data/clipend.mp4"
+        }
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "__com__": "",
+      "id": "2d79a790-4d2f-424d-9f15-99d8fc3fc90c",
+      "type": "image",
+      "order": 1,
+      "items": [
+        {
+          "id": "31904b91-c059-4b61-9965-4588ca20795c",
+          "start_time": 0,
+          "duration": 400,
+          "type": "image",
+          "asset_id": "d19662f1-e72e-4890-9a55-fd9ebd76f016",
+          "operations": [],
+          "width": 720,
+          "height": 1280,
+          "position": {
+            "x": 360,
+            "y": 640
+          }
+        },
+        {
+          "id": "4b222f7c-8244-4b63-9b58-5944b5240668",
+          "start_time": 400,
+          "duration": 30000,
+          "type": "image",
+          "asset_id": "207d9333-5ebf-444b-9e7b-8b630d3c2c67",
+          "operations": [],
+          "width": 720,
+          "height": 1280,
+          "position": {
+            "x": 360,
+            "y": 640
+          }
+        }
+      ]
+    },
+    {
+      "__com__": "",
+      "id": "4170ea02-8c6c-4e36-ae44-e729f85c509c",
+      "type": "video",
+      "order": 2,
+      "items": [
+        {
+          "id": "c3451ed7-c476-43c6-aba9-96001adb2f81",
+          "start_time": 400,
+          "duration": 30000,
+          "type": "video",
+          "asset_id": "53ac4c02-521f-4cf3-86a8-0c834cf20942",
+          "section": {
+            "from": 0,
+            "to": 30000
+          },
+          "operations": [
+            {
+              "type": "audio_volumes",
+              "params": {
+                "all": 0,
+                "Gfl": 0,
+                "fr": 0
+              }
+            }
+          ],
+          "width": 720,
+          "height": 1280,
+          "position": {
+            "x": 360,
+            "y": 640
+          }
+        },
+        {
+          "id": "ac564c53-af6f-4f6f-862d-00d8ea3cd4d4",
+          "start_time": 30400,
+          "duration": 4000,
+          "type": "video",
+          "asset_id": "15d8df9e-cec6-4646-b65c-11097cf4b450",
+          "section": {
+            "from": 0,
+            "to": 4000
+          },
+          "operations": [
+            {
+              "type": "audio_volumes",
+              "params": {
+                "all": 100,
+                "Gfl": 100,
+                "fr": 100
+              }
+            }
+          ],
+          "width": 720,
+          "height": 1280,
+          "position": {
+            "x": 360,
+            "y": 640
+          }
+        }
+      ]
+    },
+    {
+      "__com__": "",
+      "id": "7013445c-e765-4df0-80f6-a1a16ef76bce",
+      "type": "audio",
+      "order": 3,
+      "items": [
+        {
+          "id": "f6e17df3-83fc-4ce2-afe3-7b5ff01d7d3c",
+          "start_time": 400,
+          "duration": 30000,
+          "type": "audio",
+          "asset_id": "fee0948b-fcdd-4d66-bf38-f9e5672e23e2",
+          "section": {
+            "from": 0,
+            "to": 30000
+          },
+          "operations": [
+            {
+              "type": "audio_volumes",
+              "params": {
+                "all": 100,
+                "fl": 100,
+                "fr": 100
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -23,8 +23,12 @@ const pr_proto = grpc.loadPackageDefinition(packageDefinition).pr;
 /**
  * Implements the SayHello RPC method.
  */
-function sayHello(call, callback) {
+async function sayHello(call, callback) {
     console.log('redner-client sayHello');
+    const mockdata = require('../mock/mock_data.json');
+    const response = await axios.post('http://127.0.0.1:8010/201903v1/internal/merge_request', mockdata);
+    const respData = await response.data;
+    console.log(respData);
 
 
     callback(null, {message: 'Hello ' + call.request.message + ' This is redner-client.'});
