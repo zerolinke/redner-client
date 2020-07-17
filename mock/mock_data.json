@@ -29,8 +29,8 @@
     "type": 0,
     "params": {
       "region": "xxx",
-      "bucket": "xxx",
-      "dir": "xxx",
+      "bucket": "shortvideo-1251820392",
+      "dir": "/video_editing/test_res",
       "secret_id": "xxx",
       "secret_key": "xxx"
     }

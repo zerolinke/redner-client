@@ -2,19 +2,20 @@ syntax = "proto3";
 
 package pr;
 
-service Gn {
-    rpc SayHello (GnRequest) returns (GnResponse) {
+service RednerGn {
+    rpc SayHello (RednerGnRequest) returns (RednerGnResponse) {
     }
-    rpc Generate (GnRequest) returns (GnResponse) {
+    rpc Generate (RednerGnRequest) returns (RednerGnResponse) {
     }
 }
 
-message GnRequest {
+message RednerGnRequest {
     string message = 1;
     string data = 2;
+    string project_item_uid = 3;
 }
 
-message GnResponse {
+message RednerGnResponse {
     string message = 1;
     string data = 2;
 }

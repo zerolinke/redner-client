@@ -22,6 +22,9 @@
     "grpc": "^1.11.0",
     "lodash": "^4.6.1",
     "minimist": "^1.2.0",
-    "moment": "latest"
+    "moment": "latest",
+    "ffprobe": "latest",
+    "ffprobe-static": "latest",
+    "gify-parse": "latest"
   }
 }

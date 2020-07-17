@@ -1,0 +1,11 @@
+{
+  "nas": {
+    "host": "10.0.0.9",
+    "user": "linke",
+    "password": "lkjlkj"
+  },
+  "assethub_server": {
+    "ip": "0.0.0.0",
+    "port": "7001"
+  }
+}
