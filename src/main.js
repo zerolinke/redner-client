@@ -34,7 +34,7 @@ const ASSETHUB_SERVER_IP = jsonConfig.assethub_server.ip;
 const ASSETHUB_SERVER_PORT = jsonConfig.assethub_server.port;
 
 const ASSETHUB_SERVER_API_BASE_URL = 'http://' + ASSETHUB_SERVER_IP + ':' + ASSETHUB_SERVER_PORT + '/api/v2/';
-const TARGET_DATA_PATH = 'C:\\Users\\zerol\\Documents\\gitlocal\\beta_tts\\src\\video_edit\\dist\\data';
+const TARGET_DATA_PATH = 'C:\\Users\\zerol\\WebstormProjects\\redner-client\\data';
 // TODO: Configuration end
 
 function timestamp() {
